@@ -2,7 +2,7 @@ package tables;
 
 import javax.persistence.*;
 import java.util.Collection;
-
+// Entity
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Spec.findAll", query = "select sp from Spec sp"),
